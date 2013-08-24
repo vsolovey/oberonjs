@@ -81,7 +81,7 @@ var impl = {
     strToArray: function(s){
         var result = new Array(s.length);
         for(var i = 0; i < s.length; ++i)
-            result[i] = s.charCodeAt(i);
+            result[i] = s.charAt(i);
         return result;
     },
     copy: function(from, to){
